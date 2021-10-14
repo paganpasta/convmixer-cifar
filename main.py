@@ -91,6 +91,7 @@ def train(args):
         print(f'Epoch: {i}/{args.epochs}, time: {elapsed_time:.3f}, loss:{running_loss:.4f}, val_acc: {val_acc}, best_acc:{best_acc}')
         if val_acc > best_acc:
             torch.save(model.state_dict(), os.path.join(args.save, 'best.pth'))
+            best_acc = val_acc
 
 
 def accuracy(model, val_loader):
