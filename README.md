@@ -4,6 +4,6 @@ The original paper provides details about the architecture and hyper-parameters:
 
 ### Note
 
-This repo is set-up to produce results on the CIFAR dataset with some standard `augmentations` and `transforms` used for `CIFARs`
+This repo is set-up to produce results on the CIFAR dataset with some standard `optimizer`, `schedulers` and `transforms` used for `CIFARs`
 
 I'll be adding results soon. 
